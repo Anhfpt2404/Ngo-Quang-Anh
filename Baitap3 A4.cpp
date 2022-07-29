@@ -4,10 +4,15 @@ int main(){
 	printf("Nhap n: \n");
 	scanf("%d",&n);
 	int i = 1;
-	while(n%i==0){
-	//yes
-	printf("Cac uoc can tim la: \n",i);	
-	i++;		
+	while(i<n){
+		if(n%i==0){
+			printf("Cac uoc can tim la:%d \n",i);
+			i++;
+			
+		}else{
+			i++;
+		}
+
 }
 //no
 }
